@@ -884,3 +884,42 @@ netstat -pnltu: displays various n/w related info
 ssh user@host: Remoteb login into the host as user
 wget: donwload files from the web
 curl url: sends a equest to a url and returns the response
+
+tar cf file.tar files: Create a tar named file.tar containing files.
+tar xf file.tar: extract the files from file.tar
+gzip file:Compreses file and renames it to file.gz
+gzip -d file.gz: Decompresses file.gz back to file
+zip -r file.zip files: Create a zip archieve named file.ip
+unzip file.zip: extract the contents of a zip file
+
+grep pattern files: Search for pattern in files
+grep -r pattern dir: Search recursively for pattern in directory
+echo 'text':Prints text
+di file1 file2: compares two files
+wc filename: Count,lines,words,and characters in a file
+
+df: shows disk usage
+du:shows directory usage space
+free: shows memory and swap usage
+utpime: current uptime
+uname -a:shows kernel info
+
+locate filename: find a file by its name
+tar -xvf archieve.tar: Extract a tar file
+
+port 22: ssh
+port 80:http
+port 443: https
+port 3000: Grafana
+port 3100: Loki
+port 9090: Elasticsearch
+port 9100: Node exporter
+port 53: DNS
+port 9090: Prometheus
+port 25: SMTP
+Port 5601: Kibana
+port 3306: mysql
+port 6379: Redis
+port 8080: tomcat
+port 5432: postgresql
+
