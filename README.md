@@ -963,3 +963,47 @@ port 5432: postgresql
 
  Use `cron` for scheduled tasks (`crontab -e`). For complex automation, use shell scripts and tools like `Ansible` or `Puppet` for consistent deployments across servers.
 
+
+System Analysis:
+• htop - Interactive process viewer with CPU, memory, and load metrics
+• netstat -tulpn - Display active network connections and listening ports
+• ps aux | grep - Filter and find specific running processes
+• lsof - List open files and processes using them
+• dmesg - Display kernel-related messages and system logs
+
+File Management:
+• find . -name - Search files recursively by name or pattern
+• rsync - Efficient file transfer and synchronization tool
+• tar -xvf - Extract compressed archives
+• grep -r - Search text patterns recursively in files
+• sed -i - Stream editor for inline text modifications
+
+Container & Orchestration:
+• docker stats - Real-time container resource usage
+• docker logs -f - Stream container logs live
+• kubectl get pods - List Kubernetes pod status
+• crictl pods - Low-level container runtime inspection
+
+Monitoring & Logs:
+• tail -f - Follow file updates in real-time
+• watch - Execute commands periodically
+• vmstat - Report virtual memory statistics
+• journalctl - Query systemd journal logs
+
+Network Tools:
+• curl -v - HTTP request debugging with headers
+• dig - DNS lookup utility
+• ss - Socket statistics
+• nc - Network testing and data transfer
+
+Performance:
+• strace - Trace system calls and signals
+• tcpdump - Capture and analyze network traffic
+• perf - Performance analysis tools
+• sar - Collect and report system activity
+
+System Control:
+• systemctl - Control systemd services and units
+• chmod/chown - Manage file permissions and ownership
+• du -sh - Summarize directory sizes
+• screen/tmux - Terminal session management
